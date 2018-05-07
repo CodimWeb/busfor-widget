@@ -1,0 +1,26 @@
+.logo {
+  width: 230px;
+  height: 27px;
+  background: url(../img/logo.svg) no-repeat center center /contain;
+
+  @media (max-width: 479px) and (max-aspect-ratio: 13/9) {
+    background: url(../img/logo-white.svg) no-repeat center center /contain;
+    position: relative;
+    top: 26px;
+    z-index: 2;
+    margin: 0 auto;
+  }
+
+  @media (max-width: 479px) and (max-aspect-ratio: 13/9) {
+    width: 190px;
+    height: 22px;
+  }
+
+  @media (max-width: 567px) and (min-aspect-ratio: 13/9) {
+    background: url(../img/logo-white.svg) no-repeat center center /contain;
+    position: relative;
+    top: 26px;
+    z-index: 2;
+    margin: 0 auto;
+  }
+}

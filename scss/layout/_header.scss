@@ -1,0 +1,28 @@
+.header {
+  padding: 24px 28px 28px;
+
+  @media (max-width: 1199px) {
+    padding: 24px 30px 28px;
+  }
+
+  @media (max-width: 767px) and (max-aspect-ratio: 13/9) {
+    padding: 24px 20px 28px;
+    
+  }
+
+  @media (max-width: 479px) and (max-aspect-ratio: 13/9) {
+    height: 0;
+    padding: 0;
+    overflow: visible;
+  }
+
+  @media (max-width: 767px) and (min-aspect-ratio: 13/9) {
+    padding: 24px 23px 28px;
+  }
+
+  @media (max-width: 567px) and (min-aspect-ratio: 13/9) {
+    height: 0;
+    padding: 0;
+    overflow: visible;
+  }
+}
