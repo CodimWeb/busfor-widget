@@ -9,7 +9,7 @@
     &__title {
       margin-bottom: 20px;
       font-size: 14px;
-      color: #a7a7a7;
+      color: #636262;
 
       @media (max-width: 767px) and (max-aspect-ratio: 13/9) {
         font-size: 12px;
@@ -21,7 +21,7 @@
     }
 
     &__text {
-      color: #a7a7a7;
+      color: #636262;
       font-size: 14px;
       line-height: 20px;
       font-family: $rl;
@@ -195,7 +195,7 @@
       font-family: $rl;
       font-size: 14px;
       line-height: 20px;
-      color: #a7a7a7;
+      color: #636262;
 
       a {
         color: #32c453;
